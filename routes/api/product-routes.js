@@ -15,8 +15,7 @@ router.get('/', async (req, res) => {
       },
     {
       model: Tag,
-      through: "productTag",
-      as: "tags"
+      through: ProductTag,
     }]
     })
     res.json(productData)
@@ -36,7 +35,8 @@ router.get('/:id', async (req, res) => {
       }]
     }, {
       include: [{
-        model: Tag
+        model: Tag,
+        through: ProductTag
       }]
     })
     //make sure there is data to get

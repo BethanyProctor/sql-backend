@@ -33,13 +33,13 @@ Product.init(
       defaultValue: 10,
       //valildate number
       validate: {
-        isNumberic: true,
+        isNumeric: true,
       }
     },
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "Category",
+        model: "category",
         key: "id",
         unique: false
       }
