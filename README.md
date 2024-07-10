@@ -1,4 +1,4 @@
-# SQL Backend
+# eCommerce Backend
   Created by Bethany Proctor 
 
   ## Description
