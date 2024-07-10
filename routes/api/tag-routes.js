@@ -81,7 +81,7 @@ router.delete('/:id', async (req, res) => {
       res.json({message: "Tag not found!"})
       return;
     }
-    res.json(tagData)
+    res.json("Category deleted!")
 
   } catch (err) {
     res.json(err)
