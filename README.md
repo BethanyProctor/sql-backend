@@ -17,7 +17,7 @@
   ## Usage
   In order to use this ecommerce tool, first type "npm run seed" in the command line. Then, after typing "npm start", open Insomnia or Postman to see the data. You can get information for categories, products, and tags, or a specific item in any of these three groups. You can also add to, update, or delete any existing data.  
 
-  Watch a walkthrough video of the app here: https://drive.google.com/file/d/1wtIIXA9y7O-puls358ND80zclD-uhsOk/view 
+  Watch a walkthrough video of the app here: https://drive.google.com/file/d/1wtIIXA9y7O-puls358ND80zclD-uhsOk/view?usp=sharing
   </br>
   Languages : JavaScript
 
